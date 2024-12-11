@@ -1,0 +1,24 @@
+#name-header {
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    padding-top: 0.5;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10%;
+}
+body {
+    background-color: rgb(76, 130, 224);
+    font-family: "Ysabeau Infant", sans-serif;
+}
+h2 {
+    font-size: 2rem;
+    background-color: aqua;
+}
+#profile-picture {
+    border-radius: 50%;
+    margin: 1em;
+    width: 30vw;
+    border-color: rgb(27, 126, 226);
+    border-width:3dvi;
+    border-style:groove;
+}
