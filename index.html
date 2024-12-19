@@ -13,7 +13,18 @@
     <title>Tom's Portfolio</title>
 </head>
 <body>
-    <h1 id="name-header">Tom Arns</h1>
+    <nav id="navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+    <div id="name-container">
+        <h1 id="name-header">Tom Arns</h1>
+    </div>
     <section id="about">
         <h2 class="section-header">About</h2>
         <img src="img/TomArnsBWHeadshotBright.png"
@@ -22,10 +33,44 @@
         <p>Mentor and CIL at code the dream.  Hardware and software engineer and manager.</p>
     </section>
     <section id="experience">
-        <h2 class="section-header"> Experience</h2>
+        <h2>Experience</h2>
+        <div class="exp-container">
+            <div class="exp-item">
+                <h3 class="date">1981-1996</h3>
+                <div class="one-experience">
+                    <h3 class="one-exp-heading">Hardware engineer</h3>
+                    <p class="exp-description">Design logic for integrated circuits.</p>
+                </div>
+            </div>
+            <div class="exp-item">
+                <h3 class="date">1996-2011</h3>
+                <div class="one-experience">
+                    <h3 class="one-exp-heading">Software engineer</h3>
+                    <p class="exp-description">Develop software for electronic design automation.</p>
+                </div>
+            </div>
+            <div class="exp-item">
+                <h3 class="date">2011-2022</h3>
+                <div class="one-experience">
+                    <h3 class="one-exp-heading">Software manager</h3>
+                    <p class="exp-description">Manage software development teams.  Assign cases and review PRs.  Host standup meetings.</p>
+                </div>
+            </div>
+            <div class="exp-item">
+                <h3 class="date">2023-2024</h3>
+                <div class="one-experience">
+                    <h3 class="exp-description">Mentor and CIL</h3>
+                    <p class="exp-description">1:1 and group mentoring.  Review lessons. Cohort Instructional Lead for west intro class.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
         <ul>
-            <li>Mentor and CIL at Code the Dream</li>
-            <li>Software Development Manager</li>
         </ul>
     </section>
     <section id="connect">
