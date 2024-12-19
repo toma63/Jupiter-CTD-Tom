@@ -6,6 +6,12 @@
     text-align: center;
     border-radius: 10%;
 }
+#name-container {
+    padding-top:2ch;
+    display: flex;
+    justify-content: center;
+    /*margin-top: 3em;*/
+}
 body {
     background-color: rgb(76, 130, 224);
     font-family: "Ysabeau Infant", sans-serif;
@@ -19,6 +25,59 @@ h2 {
     margin: 1em;
     width: 30vw;
     border-color: rgb(27, 126, 226);
-    border-width:3dvi;
-    border-style:groove;
+    border-width: 3dvi;  /* dynamic viewport percentage, inline direction */
+    border-style: groove;
 }
+#navigation {
+    /*position: fixed;*/
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top:0;
+    opacity: 100%;
+    width: 100%;
+    background-color: rgb(76, 130, 224);
+}
+#navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    justify-content: center;
+    list-style: none;
+    padding-bottom:0;
+}
+
+#about, #experience, #skills, #projects, #connect {
+    scroll-margin-top: 3em;
+}
+
+section {
+    padding-bottom: 300px; 
+}
+
+.exp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.exp-item {
+    display: flex;
+    flex-direction: row;
+    background-color:aqua;
+    border-radius: 0.8em;
+    padding: 0.5em;
+    width: 20em;
+}
+.one-experience {
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    font-weight: bold;
+    margin-right: 1em;
+    min-width: fit-content;
+}
+
+
+
+
