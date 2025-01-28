@@ -76,6 +76,28 @@ section {
     min-width: fit-content;
 }
 
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.edit-message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 0.8em;
+}
+
+.message-item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 @media (min-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr 1fr;
